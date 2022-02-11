@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body {
+background-image: url(/images/ten.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+height: 80vh;
+background-position: center;
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+font-family: 'Abril Fatface', cursive;
+text-shadow: 1px 1px #1B1725;
+}
+
+button {
+background-color: #bb3e03;
+color: white;
+}
+button :hover {
+color: white;
+background-color: #bb3e03;
+}
+a {
+color: #FFFFFF;
+}
+.sighting {
+background-color: black;
+}
+img{
+height: 200px;
+width: 400px;
+border-radius: 30px;
+display: block;
+}
+p {
+color: #ecfeff;
+font-family: 'Balsamiq Sans', cursive;
+text-shadow: 1px 1px #1B1725;
+font-size: 25px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: #480ca8;
+  text-shadow: 1px 1px #1B1725;
+  font-size:20px;
+  }
+   h2{
+   color:#fca311;
+   text-shadow: 1px 1px #1B1725;
+   }
+
+  .form{
+  color: #fca311;
+  text-shadow: 1px 1px #1B1725;
+  }

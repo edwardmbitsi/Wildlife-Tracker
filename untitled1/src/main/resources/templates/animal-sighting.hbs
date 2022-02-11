@@ -1,0 +1,61 @@
+
+{{#partial "content"}}
+    <div class="container">
+        <link rel="stylesheet" href="/css/style.css">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align:center;">Recent Sightings</h1>
+                {{#each sightings}}
+
+                    <div class="container">
+                        <div class="sighting">
+                            <table class="table  table-dark">
+                                <thead>
+                                <tr>
+                                    <th scope="col">id</th>
+                                    <th scope="col">Ranger Name</th>
+                                    <th scope="col">Animal Name</th>
+                                    <th scope="col">Animal Type</th>
+                                    <th scope="col">Age</th>
+                                    <th scope="col">Health</th>
+                                    <th scope="col">Location</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">{{id}}</th>
+                                    <td>{{rangerName}}</td>
+                                    <td>{{name}}</td>
+                                    <td>{{type}}</td>
+                                    <td>{{age}}</td>
+                                    <td>{{health}}</td>
+                                    <td>{{location}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+
+
+                {{/each}}
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="center">
+                <a href="/animals-form"><button type="submit" class="btn btn-transparent text-white" style="...">Add Sighting</button> </a></div>
+                </div>
+
+
+        </div>
+        </div>
+    </div>
+
+
+
+
+{{/partial}}
+
+{{> layout.hbs}}
