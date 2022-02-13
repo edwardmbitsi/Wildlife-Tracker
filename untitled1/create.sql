@@ -2,7 +2,7 @@
 
 CREATE DATABASE untitled1;
 
-\c untitled1;
+\c wildlife_tracker;
 
 CREATE TABLE animals (
    id serial PRIMARY KEY,
@@ -20,7 +20,7 @@ CREATE TABLE sightings (
    lastseen timestamp
    );
 
-CREATE DATABASE untitled1_test WITH TEMPLATE untitled1;
+CREATE DATABASE wildlife_tracker_test WITH TEMPLATE untitled1;
 
 
 heroku pg:psql --app untitled1
