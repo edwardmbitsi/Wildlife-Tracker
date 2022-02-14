@@ -8,7 +8,7 @@ Edward Mbitsi.
 ### Contact info
 mbitsiedward@gmail.com
 
-###Technologies used
+### Technologies used
 Java v9.
 Spark.
 Gradle.
@@ -16,7 +16,8 @@ Maven.
 Bootstrap.
 JUnit v4.12.
 Setup instructions
-To set up this project:
+
+### To set up this project:
 
 Clone the repository by executing the following command in your terminal in the directory of your choice - git clone https://github.com/edwardmbitsi/java-week-3
 
@@ -37,8 +38,8 @@ Run gradle run command
 
 Go to your browser and type localhost:4567
 
-License
-MIT Copyright © 2022 Edward Mbitsi
+### License
+#### MIT Copyright © 2022 Edward Mbitsi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute,sublicense,and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
