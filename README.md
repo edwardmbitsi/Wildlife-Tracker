@@ -19,7 +19,7 @@ Setup instructions
 
 ### To set up this project:
 
-Clone the repository by executing the following command in your terminal in the directory of your choice - git clone https://github.com/edwardmbitsi/java-week-3
+Clone the repository by executing the following command in your terminal in the directory of your choice - git clone https://github.com/edwardmbitsi/Wildlife-Tracker
 
 Navigate into the untitled1 directory - cd untitled1
 
